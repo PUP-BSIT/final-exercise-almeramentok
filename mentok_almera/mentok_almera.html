@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Mentok, Almera Page</title>
+  </head>
+  <body>
+    <h1>Mentok, Almera G.</h1>
+    <div>
+      <h2>My Interests and Hobbies</h2>
+      <ul>
+        <li>
+          Kpop
+          <p>
+            Immersing myself in the world of Kpop, enjoying the catchy tunes and
+            mesmerizing choreography.
+          </p>
+        </li>
+        <li>
+          Sleeping
+          <p>
+            Recharging my energy through quality sleep and relaxation, ensuring
+            I'm ready for each day's adventures.
+          </p>
+        </li>
+        <li>
+          Music
+          <p>
+            Exploring different music genres, finding solace and inspiration in
+            the harmonious melodies and meaningful lyrics.
+          </p>
+        </li>
+        <li>
+          Travel
+          <p>
+            Embarking on exciting journeys to new destinations, creating
+            memories that last a lifetime.
+          </p>
+        </li>
+        <li>
+          Organizing
+          <p>
+            Finding joy in tidying up and creating an orderly environment,
+            making life more efficient and enjoyable.
+          </p>
+        </li>
+      </ul>
+    </div>
+
+    <div>
+      <h2>My Works</h2>
+      <ol>
+        <li><a href="#">Work 1</a></li>
+        <li><a href="#">Work 2</a></li>
+        <li><a href="#">Work 3</a></li>
+        <li><a href="#">Work 4</a></li>
+        <li><a href="#">Work 5</a></li>
+      </ol>
+    </div>
+
+    <div>
+      <h2>Testimonials</h2>
+      <div class="background">
+        <p>
+          Yves - "In times of tight deadlines and pressure, Almera remains
+          composed and focused. Her ability to handle stress positively
+          influences the team's performance."
+        </p>
+        <p>
+          Diana - "I have the utmost confidence in Almera's abilities. She
+          consistently delivered outstanding results."
+        </p>
+        <p>
+          April - "Almera brought valuable insights to our discussions, and
+          their commitment to meeting deadlines made our collaboration smooth
+          and efficient."
+        </p>
+        <p>
+          Bradley - "Working with Almera was a game-changer for our project; her
+          dedication and expertise truly made a difference."
+        </p>
+      </div>
+    </div>
+
+    <div>
+      <h2>Gallery</h2>
+      <h3>Some 2023 Moments</h3>
+
+      <div class="background">
+        <div class="container">
+          <video controls>
+              <source src="./video/aug.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+          </video>
+  
+          <video controls>
+              <source src="./video/dance.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+          </video>
+  
+          <video controls>
+              <source src="./video/nov.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+          </video>
+  
+          <video controls>
+              <source src="./video/lighting.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+          </video>
+  
+          <video controls>
+              <source src="./video/ek.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <h2>Journal Entry</h2>
+      <div class="background">
+        <h3>December 30, 2023</h3>
+        <div class="background1">
+          <div class="journal">
+            In five years, I aspire to be knowledgeable about my passion. 
+            Currently, I am uncertain about my ultimate dream, but I envision 
+            myself in a happy and comfortable place. I acknowledge that life can
+            be challenging, especially in the demanding field of IT where stress
+            is prevalent. It might sound humorous, but my ambition is to achieve 
+            success as quickly as possible.
+          </div>
+  
+          <div class="journal">
+            I aim to nurture my inner child and provide my mother with the 
+            fulfilling life she deserves. There is a sense of urgency in my 
+            quest, as I regret not being able to offer my father the best life 
+            he deserved. Over the past few months, I've faced numerous 
+            breakdowns, causing me to question the value of my academic 
+            performance. Despite these doubts, I hope that in the upcoming 
+            weeks, I can reaffirm my worth in this industry.
+          </div>
+  
+          <div class="journal">
+            I want these next few weeks to serve as a renewed motivation to 
+            pursue a career in this field. Although I have a desire to be here, 
+            I am still uncertain about the specific type of work I want to 
+            pursue after graduating.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <h2>My Goals</h2>
+      <ol>
+        <li>Lead a happy life.</li>
+        <li>Improve myself.</li>
+        <li>Be financially stable.</li>
+        <li>Be mentally stable.</li>
+        <li>Make my mother happy.</li>
+        <li>Visit my father's grave every month.</li>
+      </ol>
+      <h2>Comments</h2>
+      <div class="background">
+        <p>
+          April - I'm constantly amazed by your determination and resilience in
+          pursuing your goals. Your journey is an inspiration to us all.
+        </p>
+        <p>
+          Bradley - May your dreams be as big as the sky, and your determination
+          even bigger.
+        </p>
+        <p>
+          Diana - You've set some pretty epic goals, and I'm here to support you
+          all the way!
+        </p>
+        <p>Yves - I admire the clarity with which you've set your goals.</p>
+      </div>
+      <div class="background" id="data_list"></div>
+      <form id="data_form">
+        <div class="background">
+          <div>
+            <label for="commenter_name">Name: </label>
+            <input type="text" id="commenter_name" />
+          </div>
+          <div>
+            <label for="comment_text">Comment: </label>
+            <textarea id="comment_text" rows="4"></textarea>
+          </div>
+          <button type="button" id="comment_button">Comment</button>
+          <button type="button" onclick="sortCommentsAscending()">
+            Sort Ascending
+          </button>
+          <button type="button" onclick="sortCommentsDescending()">
+            Sort Descending
+          </button>
+        </div>
+      </form>
+    </div>
+
+    <div class="background">
+      <span>Want to search a country? 
+        <a href= "./countries/countriesData.html">Click here!</a>
+      </span>
+    </div>
+    <script src="java.js"></script>
+  </body>
+</html>
